@@ -131,6 +131,7 @@ def process_video(video_path: Path, model_path: Path, np_model_path: Path, vehic
     end_prog_time = time.time() - start_prog_time
     print(f'Total processing time: {end_prog_time:.2f} seconds')
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Vehicle and License Plate Detection')
     parser.add_argument('--video_path', type=str, required=True, help='Path to the input video file')
