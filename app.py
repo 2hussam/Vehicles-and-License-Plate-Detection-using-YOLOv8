@@ -195,3 +195,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     process_video(Path(args.video_path), Path(args.model_path), Path(args.np_model_path), Path(args.vehicle_data_path))
 
+
+    
