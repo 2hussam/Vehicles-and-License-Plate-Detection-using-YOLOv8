@@ -1,0 +1,15 @@
+description: Ultralytics best model trained on /content/drive/MyDrive/Iraqi_license_plates.v1i.yolov8/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-04-06T08:08:01.464136'
+version: 8.1.0
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: '-'
+  1: Old License Plates
+  2: New License Plates
