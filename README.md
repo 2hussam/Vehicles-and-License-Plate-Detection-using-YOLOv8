@@ -45,7 +45,7 @@ python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_o
 ## Examples
 Here are some example results of the detection system in action:
 
-![license prediction]("Vehicles-and-License-Plate-Detection-using-YOLOv8/runs/detect/predict/img1.jpg")
+![license prediction](Vehicles-and-License-Plate-Detection-using-YOLOv8/runs/detect/predict/img1.jpg)
 
 
 ## Contributing
