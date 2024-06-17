@@ -45,16 +45,16 @@ python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_o
 ## Examples
 Here are some example results of the detection system in action:
 
-![Alt Text](url_or_path_to_image)
+![license prediction]("Vehicles-and-License-Plate-Detection-using-YOLOv8/runs/detect/predict/img1.jpg")
 
 
-Contributing
+## Contributing
 Contributions are welcome! Please open an issue to discuss what you would like to contribute.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 The YOLOv8 model and its creators.
 The OpenVINO toolkit and its contributors.
 Open-source libraries and tools used in this project.
