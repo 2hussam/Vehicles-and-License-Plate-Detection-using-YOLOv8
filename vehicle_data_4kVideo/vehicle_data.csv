@@ -1,0 +1,25 @@
+Vehicle Name,Track ID,License Plate Image,Detection Date,Detection Time
+car,3.0,3.0_plate.jpg,2024-06-18,12:54:10 AM
+car,4.0,4.0_plate.jpg,2024-06-18,12:55:43 AM
+car,6.0,6.0_plate.jpg,2024-06-18,12:57:09 AM
+car,7.0,7.0_plate.jpg,2024-06-18,1:00:23 AM
+car,17.0,17.0_plate.jpg,2024-06-18,1:01:54 AM
+car,1.0,1.0_plate.jpg,2024-06-18,12:59:29 AM
+car,16.0,16.0_plate.jpg,2024-06-18,1:03:29 AM
+car,9.0,9.0_plate.jpg,2024-06-18,1:01:29 AM
+car,28.0,28.0_plate.jpg,2024-06-18,1:05:04 AM
+car,31.0,31.0_plate.jpg,2024-06-18,1:08:04 AM
+car,22.0,22.0_plate.jpg,2024-06-18,1:04:59 AM
+truck,12.0,12.0_plate.jpg,2024-06-18,1:07:20 AM
+car,34.0,34.0_plate.jpg,2024-06-18,1:10:38 AM
+car,27.0,27.0_plate.jpg,2024-06-18,1:13:23 AM
+car,40.0,40.0_plate.jpg,2024-06-18,1:11:35 AM
+car,39.0,39.0_plate.jpg,2024-06-18,1:10:02 AM
+car,43.0,43.0_plate.jpg,2024-06-18,1:15:32 AM
+car,45.0,45.0_plate.jpg,2024-06-18,1:10:25 AM
+car,35.0,35.0_plate.jpg,2024-06-18,1:17:25 AM
+car,29.0,29.0_plate.jpg,2024-06-18,1:14:02 AM
+car,47.0,47.0_plate.jpg,2024-06-18,1:18:00 AM
+car,41.0,41.0_plate.jpg,2024-06-18,1:19:20 AM
+car,55.0,55.0_plate.jpg,2024-06-18,1:18:59 AM
+car,51.0,51.0_plate.jpg,2024-06-18,1:19:27 AM
