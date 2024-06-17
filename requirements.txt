@@ -1,6 +1,5 @@
-opencv-python==4.10.0
+opencv-python==4.10.0.82
 openvino-dev==2023.3.0
 ultralytics==8.1.0
-CSV==1.0
 threadpoolctl==3.4.0
 argparse==1.1
