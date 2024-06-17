@@ -45,10 +45,7 @@ python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_o
 ## Examples
 Here are some example results of lisence plate prediction:
 
-<img src="runs/detect/predict/img1.jpg" alt="predict" width="240" height="240">      <img src="runs/detect/predict2/img2.jpg" alt="predict2" width="240" height="240">      <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="240" height="240">      <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="240" height="240">
-
-![predict](runs/detect/predict/image1.jpg)      ![predict2](runs/detect/predict2/image2.jpg)
-![predict3](runs/detect/predict3/image3.jpg)    ![predict4](runs/detect/predict4/image4.jpg)
+<img src="runs/detect/predict/img1.jpg" alt="predict" width="340" height="340">      <img src="runs/detect/predict2/img2.jpg" alt="predict2" width="340" height="340">      <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="340" height="340">      <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="340" height="340">
 
 
 ## Contributing
@@ -58,6 +55,6 @@ Contributions are welcome! Please open an issue to discuss what you would like t
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-The YOLOv8 model and its creators.
-The OpenVINO toolkit and its contributors.
-Open-source libraries and tools used in this project.
+. The YOLOv8 model and its creators.
+. The OpenVINO toolkit and its contributors.
+. Open-source libraries and tools used in this project.
