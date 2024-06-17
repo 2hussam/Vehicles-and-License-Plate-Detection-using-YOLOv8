@@ -64,8 +64,8 @@ def process_video(video_path: Path, model_path: Path, np_model_path: Path, vehic
     ret, frame = video.read()
     H, W, _ = frame.shape
     fourcc = cv.VideoWriter_fourcc(*'mp4v')
-    out = cv.VideoWriter(f"{vehicle_data_path}/video_out.mp4", fourcc, int(video.get(cv.CAP_PROP_FPS)), (W, H))
-    
+    #out = cv.VideoWriter(f"{vehicle_data_path}/video_out.mp4", fourcc, int(video.get(cv.CAP_PROP_FPS)), (W, H))
+    out = cv.VideoWriter(f"{vehicle_data_path}/video_out.mp4", fourcc, 20, (W, H))
     # For scaling the plate image
     scale_factor = 2
 
