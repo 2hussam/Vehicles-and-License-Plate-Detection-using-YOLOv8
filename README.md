@@ -43,9 +43,10 @@ python app.py --video_path "Vehcles.mp4" --model_path "yolov8n_openvino_model" -
 python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_openvino_model" --np_model_path "path_to_licensePlate_openvino_model_yolov8" --vehicle_data_path "file_path_to_save_the_date"
 ```
 ## Examples
-Here are some example results of the detection system in action:
+Here are some example results of lisence plate prediction:
 
-![license prediction](Vehicles-and-License-Plate-Detection-using-YOLOv8/runs/detect/predict/img1.jpg)
+![alt text](runs/detect/predict/image.jpg)      ![predict2](image-1.png)
+![alt text](image.png)      ![alt text](image.png)
 
 
 ## Contributing
