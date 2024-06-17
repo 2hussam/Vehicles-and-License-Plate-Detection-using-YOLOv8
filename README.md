@@ -45,6 +45,10 @@ python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_o
 ## Examples
 Here are some example results of lisence plate prediction:
 
+### License Plate Detection
+
+The license plate detection model was trained on a custom dataset specifically for detecting Iraqi license plates. However, the video used does not contain Iraqi license plates. Despite this, the model still detects vehicle license plates with good accuracy.
+
 <img src="runs/detect/predict/img1.jpg" alt="predict" width="340" height="340">      <img src="runs/detect/predict2/img2.jpg" alt="predict2" width="340" height="340">      <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="340" height="340">      <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="340" height="340">
 
 
