@@ -45,8 +45,8 @@ python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_o
 ## Examples
 Here are some example results of lisence plate prediction:
 
-![predict](runs/detect/predict/img1.jpg)      ![predict2](runs/detect/predict2/img2.jpg)
-![predict3](runs/detect/predict3/img3.jpg)    ![predict4](runs/detect/predict4/img4.jpg)
+![predict](runs/detect/predict/image1.jpg)      ![predict2](runs/detect/predict2/image2.jpg)
+![predict3](runs/detect/predict3/image3.jpg)    ![predict4](runs/detect/predict4/image4.jpg)
 
 
 ## Contributing
