@@ -55,6 +55,8 @@ Contributions are welcome! Please open an issue to discuss what you would like t
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-. The YOLOv8 model and its creators.
-. The OpenVINO toolkit and its contributors.
-. Open-source libraries and tools used in this project.
+1. The YOLOv8 model and its creators.
+
+2. The OpenVINO toolkit and its contributors.
+
+3. Open-source libraries and tools used in this project.
