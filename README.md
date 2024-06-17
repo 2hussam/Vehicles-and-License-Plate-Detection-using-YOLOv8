@@ -2,10 +2,10 @@
 This project implements a system for detecting vehicles and license plates using the YOLOv8 (You Only Look Once) object detection model. The aim is to provide a robust and efficient way to identify and locate vehicles and their license plates in real-time video feeds.
 
 ## Features
-. Vehicle Detection: Accurately detects various types of vehicles.
-. License Plate Detection: Identifies and locates license plates on detected vehicles.
-. Real-time Processing: Capable of processing video streams in real-time.
-. Optimized Inference: Uses the OpenVINO framework to convert PyTorch models to OpenVINO models, reducing inference time.
+1. Vehicle Detection: Accurately detects various types of vehicles.
+2. License Plate Detection: Identifies and locates license plates on detected vehicles.
+3. Real-time Processing: Capable of processing video streams in real-time.
+4. Optimized Inference: Uses the OpenVINO framework to convert PyTorch models to OpenVINO models, reducing inference time.
 
 ## Installation
 1. Clone the Repository
