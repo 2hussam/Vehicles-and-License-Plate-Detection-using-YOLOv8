@@ -49,6 +49,16 @@ Here are some example results of lisence plate prediction:
 
 <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="240" height="240">      <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="240" height="240">
 
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="runs/detect/predict/img1.jpg" alt="predict" width="240" height="240" style="margin: 5px;">
+    <img src="runs/detect/predict2/img2.jpg" alt="predict2" width="240" height="240" style="margin: 5px;">
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="240" height="240" style="margin: 5px;">
+    <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="240" height="240" style="margin: 5px;">
+</div>
+
 ![predict](runs/detect/predict/image1.jpg)      ![predict2](runs/detect/predict2/image2.jpg)
 ![predict3](runs/detect/predict3/image3.jpg)    ![predict4](runs/detect/predict4/image4.jpg)
 
