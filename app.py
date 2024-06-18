@@ -44,10 +44,10 @@ def process_video(video_path: Path, model_path: Path, np_model_path: Path, vehic
     """
     start_prog_time = time.time()
 
-    if not (vehicle_data_path / "Plate Images").exists():
-        os.mkdir(f"{vehicle_data_path}/Plate Images")
+    if not (vehicle_data_path / "Plate_Images").exists():
+        os.mkdir(f"{vehicle_data_path}/Plate_Images")
 
-    plates = Path(vehicle_data_path / "Plate Images")
+    plates = Path(vehicle_data_path / "Plate_Images")
 
     # Vehicle model path
     model = YOLO(model_path)
