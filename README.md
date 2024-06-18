@@ -53,6 +53,12 @@ The license plate detection model was trained on a custom dataset specifically f
 
 - Note: You can train and use your custom model instead of my model.
 
+### Video Demonstration
+
+<p align="center">
+    <img width="60%" src="runs/detect/video_out.gif">
+</p>
+
 ## Contributing
 Contributions are welcome! Please open an issue to discuss what you would like to contribute.
 
