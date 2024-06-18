@@ -6,6 +6,7 @@ This project implements a system for detecting vehicles and license plates using
 - License Plate Detection: Identifies and locates license plates on detected vehicles.
 - Real-time Processing: Capable of processing video streams in real-time.
 - Optimized Inference: Uses the OpenVINO framework to convert PyTorch models to OpenVINO models, reducing inference time.
+- Output Generation: Saves the processed video with detections, images of detected license plates, and generates a CSV file with detailed detection information.
 
 ## Installation
 1. Clone the Repository
@@ -51,13 +52,18 @@ The license plate detection model was trained on a custom dataset specifically f
 
 <img src="runs/detect/predict/img1.jpg" alt="predict" width="340" height="340">      <img src="runs/detect/predict2/img2.jpg" alt="predict2" width="340" height="340">      <img src="runs/detect/predict3/img3.jpg" alt="predict3" width="340" height="340">      <img src="runs/detect/predict4/img4.jpg" alt="predict4" width="340" height="340">
 
-- Note: You can train and use your custom model instead of my model.
+- **Note**: You can train and use your custom model instead of my model.
 
 ### Video Demonstration
 
 <p align="center">
     <img width="60%" src="runs/detect/video_out.gif">
 </p>
+
+## Output
+- video_out.mp4: The program saves the video with detected vehicles and license plates in the vehicle_data folder.
+- Plate Images: It saves images of the detected license plates in the vehicle_data folder.
+- vehicle_data.csv: A CSV file is generated in the vehicle_data folder containing details such as the type of detected vehicle, license plate number, track ID, detection date, and detection time.
 
 ## Contributing
 Contributions are welcome! Please open an issue to discuss what you would like to contribute.
