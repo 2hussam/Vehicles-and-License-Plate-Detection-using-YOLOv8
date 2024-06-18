@@ -61,10 +61,9 @@ The license plate detection model was trained on a custom dataset specifically f
 </p>
 
 ## Output
-- [video_out.mp4](Vehicles-and-License-Plate-Detection-using-YOLOv8/vehicle_data/video_out.mp4): The program saves the video with detected vehicles and license plates in the vehicle_data folder.
-[Plate_Images](Vehicles-and-License-Plate-Detection-using-YOLOv8/vehicle_data/Plate Images)
-- [Plate_Images](Vehicles-and-License-Plate-Detection-using-YOLOv8/vehicle_data/Plate Images): It saves images of the detected license plates in the vehicle_data folder.
-- vehicle_data.csv: A CSV file is generated in the vehicle_data folder containing details such as the type of detected vehicle, license plate number, track ID, detection date, and detection time.
+- [video_out.mp4](vehicle_data/): The program saves the video with detected vehicles and license plates in the vehicle_data folder.
+- [Plate_Images](vehicle_data/plate_images): It saves images of the detected license plates in the vehicle_data folder.
+- [vehicle_data.csv](vehicle_data/): A CSV file is generated in the vehicle_data folder containing details such as the type of detected vehicle, license plate number, track ID, detection date, and detection time.
 
 ## Contributing
 Contributions are welcome! Please open an issue to discuss what you would like to contribute.
