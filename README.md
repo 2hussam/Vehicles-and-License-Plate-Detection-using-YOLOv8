@@ -43,6 +43,8 @@ python app.py --video_path "Vehcles.mp4" --model_path "yolov8n_openvino_model" -
 ```sh
 python app.py --video_path path_to_video.mp4 --model_path "path_to_your_yolov8_openvino_model" --np_model_path "path_to_licensePlate_openvino_model_yolov8" --vehicle_data_path "file_path_to_save_the_date"
 ```
+- **Note**: path_to_video.mp4 == 0 or 1 or 2 for webcam.
+
 ## Examples
 Here are some example results of lisence plate prediction:
 
