@@ -32,7 +32,7 @@ def update_vehicle_data(track_id: int, vehicle_class: str, plate_filename: str, 
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow([vehicle_class, track_id, plate_filename, detection_date, detection_time])
 
-def process_video(video_path: Path, model_path: Path, np_model_path: Path, vehicle_data_path: Path) -> None:
+def process_video(video_path: str, model_path: Path, np_model_path: Path, vehicle_data_path: Path) -> None:
     """
     Runs main app
 
@@ -60,6 +60,9 @@ def process_video(video_path: Path, model_path: Path, np_model_path: Path, vehic
         csv_writer.writerow(['Vehicle Name', 'Track ID', 'License Plate Image', 'Detection Date', 'Detection Time'])
     
     # Read video and initialize variables
+    if video_path.isnumeric():
+        video_path = int(video_path)
+        
     video = cv.VideoCapture(video_path)
     ret, frame = video.read()
     H, W, _ = frame.shape
@@ -194,7 +197,7 @@ if __name__ == "__main__":
     parser.add_argument('--vehicle_data_path', type=str, required=True, help='Path to save vehicle data and output video')
 
     args = parser.parse_args()
-    process_video(Path(args.video_path), Path(args.model_path), Path(args.np_model_path), Path(args.vehicle_data_path))
+    process_video(args.video_path, Path(args.model_path), Path(args.np_model_path), Path(args.vehicle_data_path))
 
 
     
