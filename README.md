@@ -13,8 +13,11 @@ This project implements a system for detecting vehicles and license plates using
 
 ```sh
 git clone https://github.com/2hussam/Vehicles-and-License-Plate-Detection-using-YOLOv8.git
+```
+```sh
 cd Vehicles-and-License-Plate-Detection-using-YOLOv8
 ```
+
 2. Install Dependencies
 Ensure you have Python installed. Then, install the required packages:
 
